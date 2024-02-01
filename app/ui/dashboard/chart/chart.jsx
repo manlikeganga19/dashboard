@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
+import styles from "./chart.module.css";
+const chart = () => {
+  return <div className={styles.container}>chart</div>;
+};
 
-const card = () => {
-  return (
-    <div>card</div>
-  )
-}
-
-export default card
+export default chart;

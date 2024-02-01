@@ -1,9 +1,7 @@
-import React from 'react'
-
+import React from "react";
+import styles from "./rightbar.module.css";
 const rightbar = () => {
-  return (
-    <div>rightbar</div>
-  )
-}
+  return <div>rightbar</div>;
+};
 
-export default rightbar
+export default rightbar;

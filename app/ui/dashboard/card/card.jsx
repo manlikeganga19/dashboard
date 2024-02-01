@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import styles from "./card.module.css";
 
 const card = () => {
-  return (
-    <div>card</div>
-  )
-}
+  return <div className={styles.container}>card</div>;
+};
 
-export default card
+export default card;

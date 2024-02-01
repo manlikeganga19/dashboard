@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from "./transactions.module.css"
 const transactions = () => {
   return (
-    <div>transactions</div>
+    <div className={styles.container}>transactions</div>
   )
 }
 
