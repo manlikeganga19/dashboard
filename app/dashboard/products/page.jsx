@@ -35,13 +35,13 @@ const Productspage = () => {
                   height={40}
                   className={styles.productImage}
                 />
-                Oganga Daniel
+                samsung
               </div>
             </td>
-            <td>og@gmail.com</td>
-            <td>13.01.2024</td>
-            <td>Admin</td>
-            <td>active</td>
+            <td>desc</td>
+            <td>2000</td>
+            <td>13.02.2024</td>
+            <td>770</td>
             <td>
               <div className={styles.buttons}>
                 <Link href={`/dashboard/users`}>
