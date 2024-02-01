@@ -17,11 +17,11 @@ const Productspage = () => {
       <table className={styles.table}>
         <thead>
           <tr>
-            <td>Name</td>
-            <td>Email</td>
-            <td>Created at</td>
-            <td>Role</td>
-            <td>Status</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Price</td>
+            <td>Created At</td>
+            <td>Stock</td>
             <td>Action</td>
           </tr>
         </thead>
@@ -30,7 +30,7 @@ const Productspage = () => {
             <td>
               <div className={styles.product}>
                 <Image
-                  src="/noavatar.png"
+                  src="/noproduct.jpg"
                   width={40}
                   height={40}
                   className={styles.productImage}
