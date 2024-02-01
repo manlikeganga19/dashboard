@@ -1,9 +1,13 @@
-import React from 'react'
-import styles from "./styles.module.css";
-const search = () => {
+import React from "react";
+import styles from "./search.module.css";
+import { MdSearch } from "react-icons/md";
+const search = ({ placeholder }) => {
   return (
-    <div className={styles.container}>search</div>
-  )
-}
+    <div className={styles.container}>
+      <MdSearch />
+      <input type="text" placeholder={placeholder}  className={styles.input}/>
+    </div>
+  );
+};
 
-export default search
+export default search;
